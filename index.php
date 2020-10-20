@@ -16,11 +16,15 @@
 
 <body>
 
+
+
     <nav class="company__container">
         <a href="#" class="logo-link">
             <img src="./images/logo.PNG" alt="" width="120px" class="company__logo">
         </a>
     </nav>
+
+    <aside class="company__bg-imag-wrappere"><img src="./images/intro.jpg" alt="" width="100%" class="bg-img"></aside>
 
     <main class="job__container">
         <header class="job__header">
@@ -39,6 +43,7 @@
                     <div>
                         <div class="resume">Resume/CV</div>
                         <div><input type="file" name="resume" id="resume" required></div>
+
                     </div>
                     <div>
                         <div class="full-name">Full name</div>
@@ -97,11 +102,6 @@
             </section>
         </footer>
     </main>
-
-
-
-
-
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
